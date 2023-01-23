@@ -5,8 +5,7 @@ terraform {
     bucket         = "cc-tf-state-backend-ci-cd"
     key            = "tf-infra/terraform.tfstate" 
     region         = "us-east-1"
-    access_key     = "AKIAZ3V3IRELCYUFMGBZ"
-    secret_key     = "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"
+    profile        = "somaf"
     dynamodb_table = "terraform-state-locking"
     encrypt        = true
   }
