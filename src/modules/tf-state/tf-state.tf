@@ -1,6 +1,6 @@
 # S3 Bucket for TF State File
 resource "aws_s3_bucket" "terraform_state" {
-  bucket        = var.bucket_name
+  bucket        = "terraformtfstatecxup"
   force_destroy = true
 }
 
