@@ -3,7 +3,7 @@ terraform {
   # Then uncomment "backend" and run init, apply after Resources have been created (uses AWS)
   backend "s3" {
     bucket         = "cc-tf-state-backend-ci-cd"
-    key            = "tf-infra/terraform.tfstate"
+    key            = "tf-infra/terraform.tfstate" 
     region = "ap-northeast-1"
     access_key = "AKIAZ3V3IRELCYUFMGBZ"
     secret_key = "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"
