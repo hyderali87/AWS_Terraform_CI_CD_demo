@@ -4,7 +4,7 @@ terraform {
   backend "s3" {
     bucket         = "cc-tf-state-backend-ci-cd"
     key            = "tf-infra/terraform.tfstate" 
-    region         = "ap-northeast-1"
+    region         = "us-east-1"
     access_key     = "AKIAZ3V3IRELCYUFMGBZ"
     secret_key     = "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"
     dynamodb_table = "terraform-state-locking"
