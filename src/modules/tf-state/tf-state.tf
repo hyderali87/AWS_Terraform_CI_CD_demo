@@ -1,6 +1,6 @@
 # S3 Bucket for TF State File
 resource "aws_s3_bucket" "terraform_state" {
-  bucket        = "terraformtfstatecxup"
+  bucket        = "somaf/terraform_tfstate"
   force_destroy = true
 }
 
