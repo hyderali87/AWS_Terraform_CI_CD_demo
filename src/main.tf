@@ -6,8 +6,6 @@ terraform {
     key            = "tf-infra/terraform.tfstate" 
     region         = "us-east-1"
     profile        = "somaf"
-    access_key     = "AKIAZ3V3IRELCYUFMGBZ"
-    secret_key     = "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"
     dynamodb_table = "terraform-state-locking"
     encrypt        = true
   }
